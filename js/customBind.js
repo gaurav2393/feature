@@ -14,5 +14,5 @@ var bar2 = {
    foobar: 'baz'
 };
 
-var foo2 = foo.bind2(bar2);
-foo2();//prints baz
+var foo3 = foo2.bind2(bar2);
+foo3();//prints baz
